@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Karma", serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: aquamarine;
+    color: brown;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-img-p-h {
+    display: flex;
+    justify-content: center;
+}
+
+.container-img-p-h section {
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.container-img-p-h img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    transition: all;
+}
+.icon:hover {
+    background-color: grey;
+}
